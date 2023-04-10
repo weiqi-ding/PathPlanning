@@ -1,0 +1,113 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PathPlanning",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "astar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-astar-Debug-5f91e4db52db88fc2495.json",
+					"name" : "astar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bfs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bfs-Debug-2128ce3d774c85343a85.json",
+					"name" : "bfs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dfs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dfs-Debug-d3fc0214084036a3bfe3.json",
+					"name" : "dfs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dji::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dji-Debug-64c79378cff665b5a48a.json",
+					"name" : "dji",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dstar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dstar-Debug-5abab0883c16f3dbc043.json",
+					"name" : "dstar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rrt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rrt-Debug-c1b364df13e15b8ac4b9.json",
+					"name" : "rrt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rrtstar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rrtstar-Debug-3a2f3a2668b40e87ba45.json",
+					"name" : "rrtstar",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lotus/桌面/PathPlanning_C++/build",
+		"source" : "/home/lotus/桌面/PathPlanning_C++"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
